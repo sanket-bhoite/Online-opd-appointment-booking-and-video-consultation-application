@@ -1,0 +1,125 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".doctorregistration">
+
+    <ImageView
+        android:layout_width="500dp"
+        android:layout_height="178dp"
+        android:src="@drawable/image1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.03"
+        android:text="Register"
+        android:textColor="#0d6e6a"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/docfm"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_person"
+        android:drawablePadding="12dp"
+        android:hint="Full Name"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/docregisteremail"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Email"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_email" />
+
+
+
+    <EditText
+        android:id="@+id/docls"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/ic_hosp"
+        android:drawablePadding="12dp"
+        android:hint="Your License Number"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/docsigninuser"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Username"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_perm" />
+
+    <EditText
+        android:id="@+id/docsigninpass"
+        android:layout_width="350dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:hint="Password"
+        android:background="@drawable/custom_input"
+        android:drawablePadding="12dp"
+        android:paddingLeft="20dp"
+        android:textColor="#0d6e6a"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:drawableLeft="@drawable/ic_lock" />
+
+    <Button
+        android:id="@+id/docrg"
+        android:layout_width="350dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/button"
+        android:text="Sign Up"
+        android:textColor="#FFF"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/drver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Are you verified your mail-id?"
+        android:textColor="#0d6e6a"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:layout_marginTop="15dp"/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="798dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="1dp"
+        app:srcCompat="@drawable/bottom_background" />
+
+</LinearLayout>
