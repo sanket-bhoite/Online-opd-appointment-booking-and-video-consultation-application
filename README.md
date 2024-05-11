@@ -1,5 +1,6 @@
 # Online-opd-appointment-booking-and-video-consultation-application
-![Screenshot (464)](https://github.com/sanket-bhoite/Online-opd-appointment-booking-and-video-consultation-application/assets/84386140/6a246bca-771a-4281-b493-e29d17de7f57)
+![Screenshot (464)](https://github.com/sanket-bhoite/Online-opd-appointment-booking-and-video-consultation-application/assets/84386140/bae4a75e-7880-4394-89e5-322916bab944)
+
 
 Life is becoming too busy and if anyone wants to take the appointment with doctor then
 he/she has to go to in hospital, wait in queue to book appointment. In the situation like
