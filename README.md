@@ -15,3 +15,4 @@ generate the appointment slip so by carrying them patient can go to hospital and
 doctor. The android application DOC + PE acts as a client whereas the doctor’s details,
 patient’s details and appointment details is stored and maintained in a firebase database.
 **Key skills required to develop this project**:_Android, xml, Java, Firebase Realtime database._
+
